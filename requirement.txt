@@ -1,0 +1,6 @@
+streamlit==1.39.0
+orange3==3.38.1
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+bz2file==0.98
