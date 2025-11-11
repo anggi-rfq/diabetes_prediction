@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 import bz2
+import orange
 
 # Fungsi load model aman
 def load_orange_model(path):
@@ -40,3 +41,4 @@ if st.button("Prediksi"):
         st.error("⚠️ Anda berisiko terkena diabetes.")
     else:
         st.success("✅ Anda tidak berisiko diabetes.")
+
